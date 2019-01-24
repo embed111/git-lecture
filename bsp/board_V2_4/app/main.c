@@ -35,8 +35,8 @@ void main(void)
     
     while (1) {
         uart1_send(WELCOME, sizeof(WELCOME)-1);
-        uart1_sendString("6b6\r\n");
-        printf("system is ok?!\r\n");
+        uart1_sendString("hi\r\n");
+        printf("system is ok!\r\n");
         getchar();        
     }
 }
