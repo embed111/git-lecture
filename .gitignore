@@ -1,0 +1,8 @@
+*.obj
+*.hex
+*.htm
+*.lnp
+*.lst
+*.m51
+Listings/
+Objects/
